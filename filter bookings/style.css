@@ -1,0 +1,89 @@
+
+
+
+.search-wrap {
+
+  background: white;
+  width: 100%; height: 75px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+
+.content {
+  width: 100%;
+  height: 100%;
+  background: #fefefe;
+}
+
+/* search wrap */
+
+#search-box {
+  float: left;
+  width: 40%; height: 45px;
+  border: 1px solid #dbdbdb;
+  margin: 13px 0 10px 50px;
+  color: #b6b6b6;
+}
+
+
+/* individual searches  */
+
+#results {
+  float: left;
+  height: 100%;
+  width: auto;
+  color: #b6b6b6;
+  display: inline-block;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.box {
+ font-size: 12px; text-align: center;
+ float: left;
+ display: inline-block; vertical-align: middle;
+ margin: 8px 0 0 5px;
+ padding: 5px; background: #2581c3;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.box span {
+  width: 10px;  height: 10px;  margin: 0 4px 0 3px;
+  cursor: pointer;
+}
+.box span::after {
+  content: "x";
+}
+
+/* search box for stuff */
+
+#search-input {
+  float: left;
+  height: 100%;
+  border: none;
+  width: auto;
+  padding-left: 10px;
+  color: #737373;
+  outline:none;
+}
+
+/* need to adjusst input width */
+
+
+#submit {
+  float: left;
+  width: 80px; height: 45px;
+  border: 1px solid #dbdbdb;
+  margin: 13px 0 10px 17px;
+  text-align: center;
+  color: #9a9999; background: white;
+  cursor: pointer;
+}
+
+
+
+
+
+/* */
