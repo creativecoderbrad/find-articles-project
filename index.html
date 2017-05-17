@@ -1,0 +1,63 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title> Find a cottage </title>
+	<meta name="description" content="">
+	<link rel="stylesheet" media="all" href="normalise.css">
+	<link rel="stylesheet" media="all" href="style.css">
+</head>
+<body>
+
+<div class="search-wrap">
+ <form name="form" id="myForm">
+
+   <div id="search-box">
+		 <!-- individual searches made -->
+
+		 <!-- <li class="box"> Devon <span class="del">      </span>  </li>
+		 <li class="box"> Cornwall  <span class="del">  </span>  </li> -->
+
+	 	 <!--   search input   -->
+	 	 <input type="text" id="search-input"  autocomplete="off" placeholder="search cottages . . ." >
+	 </div>
+	 <!-- search button -->
+	 <input type="submit" value="Search" id="submit">
+
+ </form>
+</div>
+
+<!-- content for search -->
+
+<!-- page -->
+<div id="page-wrap">
+
+	<div class="filter-content">
+	</div>
+
+	<div class="content-wrap">
+		<div class="content-item">
+			<div class="listing-photo"></div>
+			<div class="listing-details"></div>
+		</div>
+
+
+		<div class="content-item"></div>
+		<div class="content-item"></div><div class="content-item"></div>
+		<div class="content-item"></div><div class="content-item"></div>
+		<div class="content-item"></div><div class="content-item"></div>
+		<div class="content-item"></div><div class="content-item"></div>
+	</div>
+
+</div>
+
+
+<script src="js/cottages.js"></script>
+<script src="js/searching.js"></script>
+<script src="js/buildcontent.js"></script>
+</body>
+</html>
